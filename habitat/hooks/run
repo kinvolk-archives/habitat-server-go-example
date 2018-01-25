@@ -1,5 +1,3 @@
 #!/bin/sh
 #
-cd {{pkg.svc_var_path}}
-
-exec ./hab-server-go  2>&1
+exec hab-server-go "{{pkg.svc_config_path}}/service.conf" 2>&1
