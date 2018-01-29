@@ -1,3 +1,0 @@
-#!/bin/sh
-#
-ln -sf {{pkg.path}}/bin/hab-server-go {{pkg.svc_var_path}}
